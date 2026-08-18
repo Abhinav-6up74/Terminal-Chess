@@ -26,6 +26,7 @@
     <ClInclude Include="include\chess\Position.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Board.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
