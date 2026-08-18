@@ -10,3 +10,5 @@
 git clone https://github.com/Abhinav-6up74/Terminal-Chess
 cd Terminal-Chess
 ```
+
+2. Open .slnx file in Visual Studio and just press ctrl + F5.
