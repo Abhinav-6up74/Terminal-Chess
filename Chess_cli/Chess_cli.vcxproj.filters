@@ -30,12 +30,18 @@
     <ClInclude Include="include\chess\Board.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\chess\Knight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Knight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

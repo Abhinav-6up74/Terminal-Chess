@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\chess\Board.h" />
+    <ClInclude Include="include\chess\Knight.h" />
     <ClInclude Include="include\chess\Move.h" />
     <ClInclude Include="include\chess\Piece.h" />
     <ClInclude Include="include\chess\PieceType.h" />
@@ -27,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Board.cpp" />
+    <ClCompile Include="src\Knight.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
