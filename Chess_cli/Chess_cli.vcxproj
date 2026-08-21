@@ -19,16 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\chess\Bishop.h" />
     <ClInclude Include="include\chess\Board.h" />
     <ClInclude Include="include\chess\Knight.h" />
     <ClInclude Include="include\chess\Move.h" />
     <ClInclude Include="include\chess\Piece.h" />
     <ClInclude Include="include\chess\PieceType.h" />
     <ClInclude Include="include\chess\Position.h" />
+    <ClInclude Include="include\chess\Rook.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Bishop.cpp" />
     <ClCompile Include="src\Board.cpp" />
     <ClCompile Include="src\Knight.cpp" />
+    <ClCompile Include="src\Rook.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
