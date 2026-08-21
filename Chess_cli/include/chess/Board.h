@@ -11,6 +11,7 @@ public:
 	Piece* pieceAt(Position pos)const;
 	void setPiece(Position pos, std::unique_ptr<Piece>piece);
 	bool isEmpty(Position pos)const;
+	bool isSquareAttacked(Position square, Color attackColor)const;
 private:
 	static int index(Position pos) { return pos.rank * 8 + pos.file; }
 	std::array<std::unique_ptr<Piece>, 64>squares;
