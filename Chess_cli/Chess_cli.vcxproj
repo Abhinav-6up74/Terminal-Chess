@@ -24,6 +24,7 @@
     <ClInclude Include="include\chess\King.h" />
     <ClInclude Include="include\chess\Knight.h" />
     <ClInclude Include="include\chess\Move.h" />
+    <ClInclude Include="include\chess\Pawn.h" />
     <ClInclude Include="include\chess\Piece.h" />
     <ClInclude Include="include\chess\PieceType.h" />
     <ClInclude Include="include\chess\Position.h" />
@@ -35,6 +36,7 @@
     <ClCompile Include="src\Board.cpp" />
     <ClCompile Include="src\King.cpp" />
     <ClCompile Include="src\Knight.cpp" />
+    <ClCompile Include="src\Pawn.cpp" />
     <ClCompile Include="src\Queen.cpp" />
     <ClCompile Include="src\Rook.cpp" />
     <ClCompile Include="test.cpp" />

@@ -10,19 +10,19 @@
 #include "chess/Bishop.h"
 #include "chess/Queen.h"
 #include "chess/King.h"
+#include "chess/Pawn.h"
 
 int main() {
     {
         Board board;
-        Position e4 = Position::fromAlgebraic("e4");
-        board.setPiece(e4, std::make_unique<King>(Color::White));
-        board.setPiece(Position::fromAlgebraic("e5"), std::make_unique<Knight>(Color::White));
-        board.setPiece(Position::fromAlgebraic("f5"), std::make_unique<Knight>(Color::Black));
+        Position e2 = Position::fromAlgebraic("e2");
+        board.setPiece(e2, std::make_unique<Pawn>(Color::White));
+        board.setPiece(Position::fromAlgebraic("d3"), std::make_unique<Knight>(Color::Black));
 
-        Piece* king = board.pieceAt(e4);
-        std::vector<Position> moves = king->pseudoLegalMoves(board, e4);
+        Piece* pawn = board.pieceAt(e2);
+        std::vector<Position> moves = pawn->pseudoLegalMoves(board, e2);
 
-        std::cout << "King on e4 can move to: ";
+        std::cout << "Pawn on e2 can move to: ";
         for (const auto& m : moves) std::cout << m.toAlgebraic() << " ";
         std::cout << std::endl;
     }
